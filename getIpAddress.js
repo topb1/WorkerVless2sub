@@ -1,6 +1,10 @@
 // https://github.com/cmliu/edgetunnel
 
-let sub = 'alvless.comorg.us.kg';// 留空则使用内置订阅
+let sub = 'VLESS.fxxk.dedyn.io';// cmliu默认
+sub = 'alvless.comorg.us.kg';// 天诚优选
+// sub = 'moistr.freenods.sbs';// moistr优选
+// sub = '3k.fxxk.dedyn.io';// 第三方,3Kmfi6HP大佬维护
+
 
 
 
@@ -13,7 +17,7 @@ let subProtocol = 'https';
 let url = `${subProtocol}://${sub}/sub?host=${fakeHostName}&uuid=${fakeUserID}&edgetunnel=cmliu&proxyip=${RproxyIP}`;
 url = `${subProtocol}://${subconverter}/sub?target=singbox&url=${encodeURIComponent(url)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 
-replacestr='【请勿测速】';
+// console.log(url);
 fetch(url)
   .then(response => response.json())
   .then(data => {
@@ -22,7 +26,7 @@ fetch(url)
     outbounds.forEach(e => {
         if (e['type'] == 'vless') {
             // const tag = e['server']
-            rs = `${e['server']}:${e['server_port']}#${e['tag'].replace(/【请勿测速】.*/g, '')} `
+            rs = `${e['server']}:${e['server_port']}#${e['tag'].replace(/[🐲™️|【请勿测速】|欢乐时光-]/g, '').replace(/[ 0-9]+/g, '')} `
             console.log(rs);
         }
     });
