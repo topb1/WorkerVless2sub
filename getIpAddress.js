@@ -11,7 +11,7 @@ sub = 'alvless.comorg.us.kg';// 天诚优选
 let fakeHostName = 'ai.abcde.xyz'
 let fakeUserID = '90cd4a77-141a-43c9-991b-08263cfe9c10';
 let RproxyIP = 'true';
-let subconverter = 'subapi-loadbalancing.pages.dev';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
+let subconverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"; //订阅配置文件
 let subProtocol = 'https';
 let url = `${subProtocol}://${sub}/sub?host=${fakeHostName}&uuid=${fakeUserID}&edgetunnel=cmliu&proxyip=${RproxyIP}`;
