@@ -10,7 +10,8 @@ let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给
 
 let sub = 'rough-term-odomok.bysher2018.workers.dev';// 留空则使用内置订阅
 let subconverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
-let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"; //订阅配置文件
+// let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"; //订阅配置文件
+let subconfig = "https://raw.githubusercontent.com/topb1/WorkerVless2sub/refs/heads/main/config/ACL4SSR_cmliu_Online.ini"; //自定义订阅配置文件
 let subProtocol = 'https';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
@@ -123,7 +124,7 @@ export default {
 					if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 						if (request.headers.get('Host').includes(".workers.dev")) {
 							sub = 'noTLS.fxxk.dedyn.io'; 
-							subconfig = env.SUBCONFIG || 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
+							subconfig = env.SUBCONFIG || 'https://raw.githubusercontent.com/topb1/WorkerVless2sub/refs/heads/main/config/ACL4SSR_cmliu_Online.ini';
 						} else {
 							sub = 'VLESS.fxxk.dedyn.io';
 							subconfig = env.SUBCONFIG || "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini";
