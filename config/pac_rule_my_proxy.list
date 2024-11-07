@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,converter.finance
 DOMAIN,network.us16.list-manage.com
 DOMAIN-SUFFIX,coinlist.co
 DOMAIN-SUFFIX,zapper.fi
-DOMAIN-SUFFIX,binance.com
+# DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discord.media
