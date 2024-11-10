@@ -5,6 +5,10 @@
 
 # my proxy
 
+# DOMAIN
+DOMAIN,developers.binance.com
+
+# SUFFIX
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,uniswap.org
@@ -12,13 +16,11 @@ DOMAIN-SUFFIX,converter.finance
 DOMAIN,network.us16.list-manage.com
 DOMAIN-SUFFIX,coinlist.co
 DOMAIN-SUFFIX,zapper.fi
-# DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,discord.com
-DOMAIN-KEYWORD,discord
 DOMAIN-SUFFIX,mirror.xyz
 DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,mexc.co
@@ -35,3 +37,6 @@ DOMAIN-SUFFIX,bitget.com
 DOMAIN-SUFFIX,kraken.com
 # DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,233v2.com
+
+# KEYWORD
+DOMAIN-KEYWORD,discord
