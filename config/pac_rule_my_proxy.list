@@ -10,6 +10,8 @@ DOMAIN,developers.binance.com
 
 # SUFFIX
 DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,converter.finance
