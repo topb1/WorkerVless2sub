@@ -3,7 +3,7 @@
 let sub = 'VLESS.fxxk.dedyn.io';// cmliu默认
 // sub = 'alvless.comorg.us.kg';// 天诚优选
 sub = 'zrf.zrf.me';// 第三方,周润发维护
-sub = 'owo.o00o.ooo';// 第三方,Moist_R大佬维护
+// sub = 'owo.o00o.ooo';// 第三方,Moist_R大佬维护
 
 
 let fakeHostName = 'ai.abcde.xyz'
@@ -15,17 +15,29 @@ let subProtocol = 'https';
 let url = `${subProtocol}://${sub}/sub?host=${fakeHostName}&uuid=${fakeUserID}&edgetunnel=cmliu&proxyip=${RproxyIP}`;
 url = `${subProtocol}://${subconverter}/sub?target=singbox&url=${encodeURIComponent(url)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 
+console.log(sub);
 console.log(url);
+
 fetch(url)
   .then(response => response.json())
   .then(data => {
     // 处理响应数据
     const outbounds = data["outbounds"];
+    let tmp = '';
+    let max_num = 10; // 控制输出数量
     outbounds.forEach(e => {
         if (e['type'] == 'vless') {
-            // const tag = e['server']
+            let tag = `${e['tag'].replace(/[🐲™️|【请勿测速】|欢乐时光-]/g, '').replace(/[ 0-9]+/g, '')} `
             rs = `${e['server']}:${e['server_port']}#${e['tag'].replace(/[🐲™️|【请勿测速】|欢乐时光-]/g, '').replace(/[ 0-9]+/g, '')} `
-            console.log(rs);
+            if (tmp != tag) {
+                tmp = tag;
+                cnt = 0
+            } else {
+                cnt++;
+            }
+            if (cnt < max_num) {
+                console.log(rs);
+            }
         }
     });
 
