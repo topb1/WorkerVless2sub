@@ -2,8 +2,10 @@
 
 let sub = 'VLESS.fxxk.dedyn.io';// cmliu默认
 // sub = 'alvless.comorg.us.kg';// 天诚优选
+// sub = 'altrojan.comorg.us.kg'
+
 // sub = 'zrf.zrf.me';// 第三方,周润发维护
-sub = 'owo.o00o.ooo';// 第三方,Moist_R大佬维护
+// sub = 'owo.o00o.ooo';// 第三方,Moist_R大佬维护
 
 
 let fakeHostName = 'ai.abcde.xyz'
