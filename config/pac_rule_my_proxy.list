@@ -1,0 +1,52 @@
+# examples:
+# DOMAIN-KEYWORD,avoddashs
+# DOMAIN,atv-ps.amazon.com
+# DOMAIN-SUFFIX,aboutamazon.com
+
+# my proxy
+
+# DOMAIN
+DOMAIN,developers.binance.com
+
+# SUFFIX
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,etherscan.io
+DOMAIN-SUFFIX,uniswap.org
+DOMAIN-SUFFIX,converter.finance
+DOMAIN,network.us16.list-manage.com
+DOMAIN-SUFFIX,coinlist.co
+DOMAIN-SUFFIX,zapper.fi
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,mirror.xyz
+DOMAIN-SUFFIX,bulianglin.com
+DOMAIN-SUFFIX,mexc.co
+DOMAIN-SUFFIX,kiloex.io
+DOMAIN-SUFFIX,galxe.com
+DOMAIN-SUFFIX,galaxy.eco
+DOMAIN-SUFFIX,xter.io
+DOMAIN-SUFFIX,space.id
+DOMAIN-SUFFIX,bouncebit.io
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,arweave.org
+DOMAIN-SUFFIX,arweave.app
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,kraken.com
+# DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,233v2.com
+DOMAIN-SUFFIX,dexscreener.com
+DOMAIN-SUFFIX,debank.com
+DOMAIN-SUFFIX,aicoin.com
+DOMAIN-SUFFIX,ave.ai
+DOMAIN-SUFFIX,pump.fun
+DOMAIN-SUFFIX,onekey.so
+DOMAIN-SUFFIX,lumoz.org
+DOMAIN-SUFFIX,interactivebrokers.com
+
+# KEYWORD
+DOMAIN-KEYWORD,discord

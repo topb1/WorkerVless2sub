@@ -1,0 +1,5 @@
+### CF-page 需配置的变量  K=V
+
+SUB=rough-term-odomok.bysher2018.workers.dev
+UUID=e31481b4-6087-4180-ad8c-c8962f5ac0cc
+SUBCONFIG=https://raw.githubusercontent.com/topb1/WorkerVless2sub/refs/heads/mySub/config/ACL4SSR_Online_Full_MultiMode.ini
