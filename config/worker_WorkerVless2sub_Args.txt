@@ -2,7 +2,7 @@
 
 ADD=icook.tw:2053#官方优选域名,cloudflare.cfgo.cc#优选官方线路
 ADDAPI=https://raw.githubusercontent.com/topb1/WorkerVless2sub/refs/heads/mySub/addressesapi.txt,https://raw.githubusercontent.com/topb1/WorkerVless2sub/refs/heads/mySub/addressesipv6api.txt
-ADDCSV=https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv
+ADDCSV=https://raw.githubusercontent.com/topb1/WorkerVless2sub/refs/heads/mySub/addressescsv.csv
 SUBCONFIG=https://raw.githubusercontent.com/topb1/WorkerVless2sub/refs/heads/mySub/config/ACL4SSR_Online_Full_MultiMode.ini
 PROXYIPAPI=https://raw.cmliussss.com/Serv00_ProxyIP.txt
 CMPROXYIPS=proxyip.aliyun.cmliussss.net#HK
