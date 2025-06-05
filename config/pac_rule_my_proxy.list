@@ -47,6 +47,8 @@ DOMAIN-SUFFIX,pump.fun
 DOMAIN-SUFFIX,onekey.so
 DOMAIN-SUFFIX,lumoz.org
 DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,ip.sb
 
 # KEYWORD
 DOMAIN-KEYWORD,discord
