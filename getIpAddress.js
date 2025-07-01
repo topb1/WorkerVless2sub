@@ -6,7 +6,7 @@ let sub = 'VLESS.fxxk.dedyn.io';// cmliu默认
 
 // sub = 'zrf.zrf.me';// 第三方,周润发维护
 // sub = 'owo.o00o.ooo';// 第三方,Moist_R大佬维护
-sub = 'sub.keaeye.icu';// 第三方, 文烨 提供维护
+// sub = 'sub.keaeye.icu';// 第三方, 文烨 提供维护
 // sub = 'sub.mot.cloudns.biz';// 第三方, Kristi 提供维护
 // sub = 'dy.yomoh.ggff.net';// 第三方, 青云志 提供维护
 
